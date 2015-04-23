@@ -19,7 +19,7 @@
 
 	      	  		echo '<li>
 	      	  		<span>'.$task_name. '</span>
-	      	  		<img id="'.$task_id.'" class="delete-button" width="10px" src="images/close.svg"/>
+	      	  		<img id="'.$task_id.'"" class="delete-button" width="10px" src="images/close.svg"/>
 	      	  		<li>';
 	      	  }
 	      	}
@@ -33,7 +33,7 @@
   </form>
   </div>
 </body>
-<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="https://code.jquery.com/jquery-latest.min.js"></script>
 <script>
   add_task();
 
